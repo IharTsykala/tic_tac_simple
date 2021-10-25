@@ -1,0 +1,13 @@
+.board_container {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  margin: 15% auto 20%;
+}
+
+.square_container {
+  border: 1px solid black;
+}
